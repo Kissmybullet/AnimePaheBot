@@ -24,7 +24,7 @@ def start(client, message):
         try:
             add_user(id)
         except Exception as e:
-            client.send_message(-1002457905787, f"{e}")
+            client.send_message(-1001586987735, f"{e}")
             pass
     start_pic = random.choice(START_PIC)
     
