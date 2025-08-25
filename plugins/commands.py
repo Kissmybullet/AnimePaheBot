@@ -31,7 +31,7 @@ def start(client, message):
     # Create inline buttons
     buttons = [
         [
-            InlineKeyboardButton("Owner", url="https://t.me/r4h4t_69"),
+            InlineKeyboardButton("Owner", url="https://t.me/Zenitsu_AF"),
             InlineKeyboardButton("Help", callback_data="help")
         ],
         [
@@ -142,7 +142,7 @@ def search_anime(client, message):
         try:
             add_user(id)
         except Exception as e:
-            client.send_message(-1002457905787, f"{e}")
+            client.send_message(-1001586987735, f"{e}")
             pass
     try:
         query = message.text.split("/anime ", maxsplit=1)[1]
@@ -281,7 +281,7 @@ def send_latest_anime(client, message):
             message.reply_text(f"Failed to fetch data from the API. Status code: {response.status_code}")
     
     except Exception as e:
-        client.send_message(-1002457905787, f"Error: {e}")
+        client.send_message(-1001586987735, f"Error: {e}")
         message.reply_text("Something went wrong. Please try again later.")
 
 
