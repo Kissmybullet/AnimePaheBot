@@ -48,7 +48,7 @@ def anime_details(client, callback_query):
         f"**Score**: {score}\n"
         f"[Anime Link]({anime_link})\n\n"
         f"**Bot Made By**\n"
-        f"    **[RAHAT](tg://user?id=1235222889)**"
+        f"    **[𝙕𝙚𝙣𝙞𝙩𝙨𝙪 ѦƑ](tg://user?id=5817124748)**"
     )
 
     # Store the session_id for episodes
